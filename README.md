@@ -91,5 +91,5 @@ Optional memory check: `valgrind --leak-check=full ./campuscompute sched fcfs te
 | Team member | Contribution |
 |---|---|
 | K V Divyansi (PES1UG25CS237) | Environment setup and build verification, CLI usage and error handling, CPU scheduling (FCFS, Round Robin, Priority) with policy comparison, Banker's safety algorithm (safe and unsafe states) |
-| Johlee M Efroshini (PES1UG25CS231) | Producer-consumer logger with threads, shared-memory IPC with named semaphores, worker failure detection, resource limits, cleanup verification |
+| Johlee Efroshini M (PES1UG25CS231) | Producer-consumer logger with threads, shared-memory IPC with named semaphores, worker failure detection, resource limits, cleanup verification |
 | Both | Integrated demo, final file listing and submission ZIP |
