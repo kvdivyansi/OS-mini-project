@@ -56,7 +56,7 @@ Invalid input examples (S19): `./campuscompute frobnicate`, `./campuscompute sch
 `jobs.txt` (5 jobs, has a priority tie), `jobs_idle.txt` (CPU idle gap), `jobs_invalid.txt`, `safe.txt`, `unsafe.txt`, `banker_invalid.txt`.
 Banker's file format: `n m`, Available, Maximum (n rows), Allocation (n rows); `#` begins a comment.
 
-## Screenshot guide (set the prompt first: `export SRN='YOUR_FULL_SRN'; export PS1='[$SRN] \w\$ '`)
+## Screenshot guide
 | # | Command(s) |
 |---|---|
 | S01 | `pwd; cat /etc/os-release \| head -3` |
@@ -85,3 +85,11 @@ Banker's file format: `n m`, Available, Maximum (n rows), Allocation (n rows); `
 | S24 | `zip -r PES1UGXXXXXXX_src.zip campuscompute/ -x '*.o'; unzip -l ...; unzip -t ...` |
 
 Optional memory check: `valgrind --leak-check=full ./campuscompute sched fcfs tests/jobs.txt`
+
+## Contribution
+
+| Team member | Contribution |
+|---|---|
+| K V Divyansi (PES1UG25CS237) | Environment setup and build verification, CLI usage and error handling, CPU scheduling (FCFS, Round Robin, Priority) with policy comparison, Banker's safety algorithm (safe and unsafe states) |
+| Johlee M Efroshini (PES1UG25CS231) | Producer-consumer logger with threads, shared-memory IPC with named semaphores, worker failure detection, resource limits, cleanup verification |
+| Both | Integrated demo, final file listing and submission ZIP |
