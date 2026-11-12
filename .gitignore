@@ -1,0 +1,4 @@
+*.o
+/campuscompute
+/campuscompute_tsan
+logs/campus.log
